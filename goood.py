@@ -68,7 +68,7 @@ def func(message):
                                         "4	Баш/ИКБ\n"
                                         "5	ОБЖ\n"
                                         "6	История\n"
-                                        "7	Технология\n ")
+                                        "7	Технологи\n ")
     elif message.text == "Суббота":
         bot.send_message(message.chat.id, 'В субботу выходной так что, отдыхай')
     elif message.text == "Спасибо":
